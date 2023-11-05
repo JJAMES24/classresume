@@ -1,0 +1,171 @@
+<!DOCTYPE html> <!--Defines the document to be HTML5-->
+
+<html lang="en"> <!--Opens the html tag and sets the language of the document to English-->
+
+<head> <!-- Opens the head tag which contains meta information about the document -->
+
+    <meta charset="UTF-8"> <!--Sets the character encoding for the document-->
+
+    <meta name="description" content="This is a Jarod James' Resume."> <!-- Description of the webpage, often used by search engines -->
+
+    <meta name="keywords" content="resume, jobs, career, software, developer,java,C# "> <!-- Defines keywords for search engines -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Controls the viewport on mobile devices, making the website responsive -->
+
+    <title>Jarod James Resume</title> <!-- The title of the document, appears in browser tab -->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Links the main css file for styles -->
+
+    <!-- Preloads font awesome stylesheet for icons, this helps speed up loading as the stylesheet is loaded in the background -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <!-- Provides a fallback in case JavaScript is disabled -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap">
+    </noscript>
+
+    <!-- Preloads the Google fonts for the webpage, helps with performance -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@400;500&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript> <!-- Provides a fallback in case JavaScript is disabled -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@400;500&display=swap">
+    </noscript>
+</head> <!-- Closes the head tag -->
+
+<body> <!-- Opens the body tag, this is where the content of the webpage goes -->
+
+    <div class="container"> <!-- Container class will be used to style all the content within it -->
+
+        <aside class="sidebar" role="complementary"> <!-- The aside tag is used for content that is related but separate from the main content, often as a sidebar -->
+
+            <div class="sidebar-top"> <!-- A div to contain all elements on the top of the sidebar -->
+
+                <div class="portrait"> <!-- A div to hold the profile picture -->
+                    <img src="images/jjames.jpg" alt="Portrait of Jarod James, Software Developer"> <!-- The profile picture itself -->
+                </div>
+                <h2>Jarod James</h2> <!-- Name of the resume owner -->
+                <h3>Software Developer</h3> <!-- Job title of the resume owner -->
+                <div class="links"> <!-- A div to hold all social media and contact links -->
+                    <!-- Each link also has an aria-label attribute to describe the link to screen readers -->
+                    <a href="https://www.linkedin.com/in/jarod-james-b41833232/" aria-label="Jarod James' LinkedIn profile"><i
+                            class="fab fa-linkedin"></i></a> <!-- LinkedIn link -->
+                    <a href="https://twitter.com/jjamesocial" aria-label="Jarod James' Twitter profile"><i
+                            class="fab fa-twitter"></i></a> <!-- Twitter link -->
+                    <a href="https://github.com/JJAMES24" aria-label="Jarod James' GitHub profile"><i
+                            class="fab fa-github"></i></a> <!-- Github link -->
+                    <a href="mailto:jjames2489@hotmail.com" aria-label="Email Jarod James"><i
+                            class="fab fas fa-envelope"></i></a> <!-- Email link -->
+                    <a href="tel:+14734095023" aria-label="Call Jarod James"><i class="fab fas fa-phone"></i></a> <!-- Phone link -->
+            </div> <!-- Closes the links div -->
+            <section class="sidebar-bottom"> <!-- A section to hold the resume objective -->
+                <h4>Objective</h4> <!-- Title of the objective section -->
+                <p>Keen to apply my programming skils to develop software solutions that drive business value and improve customer experiences.</p> <!-- Objective text -->
+            </section> <!-- Closes the sidebar-bottom section -->
+            </div> <!-- Closes the sidebar-top div -->
+
+        </aside> <!-- Closes the aside tag -->
+
+        <main class="main-content" role="main"> <!-- The main content of the webpage, where the major content is placed -->
+
+            <header role="banner"> <!-- Header of the main content -->
+                <h1>Embarking on Every Code Adventure</h1> <!-- Title of the resume -->
+            </header>
+
+            <section class="skills-section"> <!-- A section to list all skills -->
+                <h2>Skills</h2> <!-- Title of the skills section -->
+                <ul class="skill-list"> <!-- Unordered list to contain all skills -->
+                    <li><i class="fab fa-html5 fa-skill-icon"></i> HTML5</li> <!-- Each skill -->
+                    <li><i class="fab fa-css3-alt fa-skill-icon"></i> CSS3</li>
+                    <li><i class="fab fa-js-square fa-skill-icon"></i> JavaScript</li>
+                    <li><i class="fab fa-node-js fa-skill-icon"></i> Node.js, Express.js</li>
+                    <li><i class="fas fa-database fa-skill-icon"></i> SQL Server</li>
+                    <li><i class="fab fa-react fa-skill-icon"></i> React.js</li>
+                    <li><i class="fab fa-vuejs fa-skill-icon"></i> Vue.js</li>
+                    <li><i class="fab fa-python fa-skill-icon"></i> Python</li>
+                    <li><i class="fa-solid fa-pencil"></i> Graphic Design</li>
+                    <li><i class="fa-solid fa-file-word"></i> Microsoft Word</li>
+                    <li><i class="fab fa-aws fa-skill-icon"></i> Amazon Web Services</li>
+                    <li><i class="fab fa-docker fa-skill-icon"></i> Docker</li>
+                </ul> <!-- Closes the skill list -->
+            </section> <!-- Closes the skills section -->
+
+            <section class="experience-section"> <!-- A section to list work experience -->
+                <h2>Experience</h2> <!-- Title of the experience section -->
+                <h3>Junior Database and Application Officer| Grenada Airports Authority</h3> <!-- Job title and company -->
+
+                <h4>2023 - Present</h4> <!-- Job duration -->
+                <ul> <!-- Unordered list to contain job details -->
+                    <li>Assists with software and database development based on user requirements;</li>
+                        <li>Conduct training for departmental staff and others users of various systems;</li>
+                        <li>Troubleshoots and resolves problems with various systems;</li>
+                        <li>Assist with the development, administration and maintenance of all company websites;</li>
+                        <li>Conduct backup and recovery procedures on database systems and other software</li>
+                </ul> <!-- Closes the job details list -->
+
+                <h3>Software Developer | Vending Solutions</h3> <!-- Job title and company -->
+
+                <h4>March 2022 - November 2022</h4> <!-- Job duration -->
+                <ul> <!-- Unordered list to contain job details -->
+                    <li>Maintaining and adding features to internal programs via Visual Studio (C#);</li>
+                    <li>Graphic Designing (Website, Brochures, etc.)</li>
+                    <li>Developed and maintain internal emails for employees to communicate;</li>
+                    <li>Assist in network management;</li>
+                    <li>Manage information technology and computer systems internally.</li>
+                </ul> <!-- Closes the job details list -->
+
+                <h3>Web Designer & Sales Representative | The Computer Store </h3> <!-- Job title and company -->
+
+                <h4>January 2019 - September 2020</h4> <!-- Job duration -->
+                <ul> <!-- Unordered list to contain job details -->
+                    <li>Manage and update website;</li>
+                    <li>Repairing printers;</li>
+                    <li>Selling merchandise;</li>
+                    <li>Repairing laptops and desktops;</li>
+                    <li>Worked on controlling, updating and editing stores website from the back-end.</li>
+                </ul> <!-- Closes the job details list -->
+            </section> <!-- Closes the experience section -->
+
+            <section class="project-section"> <!-- A section to list of projects -->
+                <h2>Projects</h2> <!-- Title of the projects section -->
+                
+                <h3>Task Manager Web Application</h3> <!-- Project name  -->
+                <h4>I successfully developed a web-based task manager application that enables users to effortlessly create, edit, and manage their tasks. The application allows users to register and log in securely. Each task is equipped with a title, description, due date, and priority level. Users can mark tasks as complete, delete them, or modify their details. Robust user authentication and authorization mechanisms ensure that users can only access and manipulate their personal tasks. For this project, I utilized a combination of HTML, CSS, JavaScript, and a back-end framework, implementing Node.js with Express.js. This experience significantly bolstered my skills in web development, user management, CRUD operations, and database interactions, both on the front-end and back-end.</h4> 
+
+                <h3>Expense Tracker Mobile App</h3> <!-- Project name  -->
+                <h4>I have successfully designed and developed a mobile expense tracking application that empowers users to effectively manage their finances. The app simplifies the process of recording daily expenses, categorizing them, and obtaining concise expense summaries. It includes advanced features such as setting monthly budgets and receiving timely alerts when nearing the budget limit for specific categories. Users can also access their expense history and generate insightful reports and graphs to visualize their spending patterns. I chose to develop this app for the Android platform, utilizing Java/Kotlin to build a seamless and intuitive user experience. This project has enhanced my expertise in mobile app development, user interface design, database integration, and the implementation of features like budget tracking and notifications.</h4> 
+                
+            </section> <!-- Closes the education section -->
+
+            <section class="education-section"> <!-- A section to list educational background -->
+                <h2>Education</h2> <!-- Title of the education section -->
+                
+                <h3>M.S Information Systems| New Jeresy Institue of Technology</h3> <!-- Degree and university -->
+                <h4>2023 - Present</h4> 
+
+                <h3>B.S. in Information technology| St.George's Univerisity</h3> <!-- Degree and university -->
+                <h4>2020 - 2022</h4> <!-- Duration of the degree -->
+
+                <h3>Associate Degree in Information Technology|T.A Marryshow Community College</h3> <!-- Degree and university -->
+                <h4>2017 - 2019</h4> <!-- Duration of the degree -->
+                
+            </section> <!-- Closes the education section -->
+            
+            <section class="Certification-section"> <!-- A section to list Certifications background -->
+                <h2>Certifications</h2> <!-- Certification Title -->
+
+                <h3>AWS Certified Developer - Associate</h3> <!--Certification name -->
+                <h4>Completion Date: June 15, 2022</h4> <!-- Duration of the Certification -->
+
+                <h3>Certified ScrumMaster (CSM)</h3> <!--Certification name -->
+                <h4>Completion Date: October 20, 2021</h4> <!-- Duration of the Certification -->
+
+            </section> <!-- Closes the Certifications section -->
+
+            
+
+        </main> <!-- Closes the main content -->
+    </div> <!-- Closes the container -->
+</body> <!-- Closes the body -->
+
+</html> <!-- Closes the HTML -->
